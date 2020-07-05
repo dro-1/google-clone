@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-size: 10px;
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+}
+
+.header-container,.header-container .left,.header-container .right{
+    display: flex;
+    justify-content: space-between;
+}
+.header-container{
+    width: 100%;
+    margin-top: 1rem;
+}
+ul {
+    list-style-type: none ;
+}
+.header-container .left li:first-child a img{
+    display: inline-block;
+    width: 2.5rem;
+}
+.header-container .left li a{
+    font-size: 1.2rem;
+    display: inline-block;
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+    text-align: center;
+    font-weight: 600;
+    align-self: center;
+    color: #757575;
+    padding: 1rem;
+    margin-top: 0;
+}
+.header-container .left li:first-child a{
+    padding-top: .5rem;
+}
+.header-container .left li a.active{
+    color: #4285f4;
+    border-bottom: solid 2px #4285f4;
+}
+.header-container .right li:last-child img{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.header-container .right li:first-child img{
+    display: inline-block;
+}
+.header-container .right li{
+    margin: 0 1rem;
+    align-self: center;
+}
+
+main{
+    margin-top: 5rem;
+    width: 100%;
+}
+main img{
+    display: block;
+    width: 40%;
+    margin: 0 auto 2rem;
+}
+main .input-box{
+    width: 95%;
+    margin: 0 auto 3rem;
+    display: flex;
+}
+main .input-box input{
+    width: 90%;
+    border-radius: 2.5rem 0 0 2.5rem;
+    border: solid 1px rgb(212, 212, 212);
+    padding: .1rem;
+    border-right: none;
+}
+main .input-box .icon{
+    background-color: #3b78e7;
+    padding: 1.5rem;
+    border-radius: 0 2.5rem 2.5rem 0;
+    height: 4rem;
+}
+main .input-box .icon img{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+main .other{
+    width: 100%;
+}
+main .other em{
+    display: inline-block;
+    font-style: normal;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+main .other .links ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 2rem auto;
+    font-size: 1.5rem;
+    color: #1967d2;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    font-family: Roboto;
+    color: rgba(0,0,0,.54);
+    font-family: Roboto,HelveticaNeue,Arial,sans-serif;
+}
+footer em{
+   font-style: normal;
+   display: block;
+   width: 100%;
+   font-size: 1.6rem;
+   border-bottom: solid 1px #e2e2e2;
+   padding: 1rem;
+}
+footer .extras ul{
+    display: flex;
+    width: 80%;
+    margin: 2rem auto;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+}
+
